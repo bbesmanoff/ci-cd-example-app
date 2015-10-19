@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "eslint": "^1.7.2"
+  }
+}
