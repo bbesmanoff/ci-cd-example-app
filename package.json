@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "lint": "eslint ."
+  },
   "devDependencies": {
     "babel": "^5.8.23"
   }
