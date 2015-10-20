@@ -1,7 +1,8 @@
 {
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha --compilers js:babel/register"
+    "test": "mocha --compilers js:babel/register",
+    "posttest": "npm run lint"
   },
   "devDependencies": {
     "babel": "^5.8.23",
