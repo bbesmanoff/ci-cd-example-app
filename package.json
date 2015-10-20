@@ -1,8 +1,11 @@
 {
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "mocha --compilers js:babel/register"
   },
   "devDependencies": {
-    "babel": "^5.8.23"
+    "babel": "^5.8.23",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.3"
   }
 }
