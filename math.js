@@ -21,3 +21,10 @@ export function max(v1, v2) {
 
   return v2;
 }
+
+export function floor(val) {
+  if (val <= 0) {
+    return parseInt(val) - 1;
+  }
+  return parseInt(val);
+}

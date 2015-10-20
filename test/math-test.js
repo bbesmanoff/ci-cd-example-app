@@ -7,4 +7,13 @@ describe('MyMath', () => {
       expect(MyMath.abs(0)).to.be(0);
     });
   });
+
+  describe('.floor', () => {
+    it('should return the correct value for positive numbers', () => {
+      expect(MyMath.floor(2.5)).to.be(2);
+    });
+    it('should return the correct value for negative numbers', () => {
+      expect(MyMath.floor(-2.5)).to.be(-3);
+    });
+  });
 });
